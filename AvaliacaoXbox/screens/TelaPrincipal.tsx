@@ -23,7 +23,7 @@ export default function TelaPrincipal({
         />
       </View>
       <View style={styles.viewCabecalho}>
-        <Text style={styles.textCabecalho}>Avaliações de jogos exlusivos! </Text>
+        <Text style={styles.textCabecalho}>Avaliações de jogos exclusivos! </Text>
       </View>
       <View style={styles.viewTextPrincipal}>
         <Text style={styles.textPrincipal}>

@@ -74,11 +74,11 @@ export default function ListaJogos({
 
         <View style={styles.ViewFlatList}>
           {loading ? (
-            <LottieView
-              autoPlay
-              style={{ width: 300, height: 250 }}
-              source={require('../assets/Animation - 1728223937271.json')}
-            />
+           <LottieView
+           autoPlay
+           style={{ width: 300, height: 250 }}
+           source={require('../assets/Animation - 1728223937271.json')}
+         />
           ) : (
             <FlatList
               data={jogosFilter}

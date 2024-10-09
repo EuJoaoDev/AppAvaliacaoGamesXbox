@@ -95,7 +95,7 @@ export default function CadastrarFeedBack({
           value={feedback}
           onChangeText={setFeedback} // Adicionando a captura do feedback
           style={[globalStyles.textInput, styles.TextArea]}
-          placeholder="Descreva a sua experiência:"
+          placeholder="Descreva sua experiência:"
         />
 
         <View style={styles.viewCompartilhe}>
@@ -122,11 +122,11 @@ export default function CadastrarFeedBack({
 
         <View style={styles.viewCheck}>
           <Checkbox
-            color="#2f66df"
+            color="#ffffff"
             status={isDone ? 'checked' : 'unchecked'}
             onPress={() => setIsDone(!isDone)}
           />
-          <Text>Recomendaria para outras pessoas?</Text>
+          <Text style={styles.ViewCheckColor}>Recomendaria para outras pessoas?</Text>
         </View>
 
         <View style={styles.container}>
@@ -164,19 +164,23 @@ const styles = StyleSheet.create({
   },
   TextHeader: {
     fontSize: 24,
+    color: "#ffffff",
     fontWeight: 'bold',
+    
   },
   cabecalhoText: {
     alignItems: 'center',
     gap: 10,
     marginBottom: 20,
+    color:'white'
   },
   textPrincipalCabecalho: {
     textAlign: 'center',
+    color: "white",
   },
   TextButton: {
     fontSize: 15,
-    color: 'white',
+    color: '#f0f0f0',
   },
   TextArea: {
     height: 100,
@@ -207,6 +211,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 20,
+    color: '#ffffff',
   },
   styleButtonView: {
     alignItems: 'center',
@@ -221,9 +226,14 @@ const styles = StyleSheet.create({
   },
   viewCompartilhe: {
     marginBottom: 10,
+    
   },
   TextCompartilhe: {
     fontWeight: 'bold',
     fontSize: 20,
+    color:'white',
   },
+  ViewCheckColor:{
+    color:'white'
+  }
 });
