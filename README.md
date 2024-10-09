@@ -46,14 +46,15 @@ EXPO_PUBLIC_API_URL=https://sua-api-url.com
 
 
 ## Lista Jogos
-![image](https://github.com/user-attachments/assets/540b5aba-bf75-41e1-8e60-b3cda27e55f8)
+![image](https://github.com/user-attachments/assets/21398c3e-5980-4bb6-a507-f8ebde70f054)
+
 
 
 
 
 
 ## Feedbacks
-
+![image](https://github.com/user-attachments/assets/540b5aba-bf75-41e1-8e60-b3cda27e55f8)
 
 
 
